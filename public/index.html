@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Make Contact</title>
+</head>
+<body>
+	<h1>Create a contact!</h1>
+	<form action="/details" method="post">
+	<label for="name">Name:</label>
+	<br>
+	<input type="text" placeholder="Enter Name" name="name" id="name">
+	<br>
+	<label for="contact">Phone number:</label>
+	<br>
+	<input type="text" placeholder="Enter Phone Number" name="phone" id="contact">
+	<br>
+	<button type="submit">Submit!</button>
+</form>
+<h1>Delete a contact!</h1>
+	<form action="/delete" method="post">
+	<label for="contact">Phone number:</label>
+	<br>
+	<input type="text" placeholder="Enter Phone Number" name="phone" id="contact">
+	<br>
+	<button type="submit">Delete!</button>
+</form>
+<h1>Search a contact!</h1>
+	<form action="/search" method="post">
+	<label for="name">Name:</label>
+	<br>
+	<input type="text" placeholder="Enter Name" name="name" id="name">
+	<br>
+	<button type="submit">Search!</button>
+</form>
+</body>
+</html>
